@@ -95,7 +95,7 @@ var getChildren = function(json) {
     } else {
       // children node
       var childChildren = getChildren(json[key]);
-      if (childChildren) child.children = childChildren;
+      if (childChildren.length > 0) child.children = childChildren;
     }
     children.push(child);
     delete json[key];
