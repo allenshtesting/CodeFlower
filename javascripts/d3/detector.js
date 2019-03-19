@@ -196,7 +196,7 @@
 			return window.SUGAR != null;
 		},
 		'YUI': function() {
-			return window.YAHOO|window.YUI != null;
+			return window.YAHOO || window.YUI != null;
 		},
 		'jQuery': function() {
 			return window.jQuery != null;
